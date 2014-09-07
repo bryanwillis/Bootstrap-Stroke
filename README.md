@@ -47,8 +47,9 @@ Include link to css file in HEAD section of the html page after bootstrap.css li
 ```
 And then use icons with bootsstrap and bss name convention, e.g. _bss bss-plus_, _bss bss-share_, _bss bss-qrcode_.
 
+## License
+[MIT](http://opensource.org/licenses/MIT)
+
 ## Support or Contact
 Having trouble with icons or want to say hi? Contact us via team@highrobotics.com.
 
-## License
-[MIT](http://opensource.org/licenses/MIT)

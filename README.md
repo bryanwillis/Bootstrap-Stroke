@@ -3,7 +3,7 @@ Bootstrap stroke icons (BSS) is free of charge icon set created for famous [Boot
 
  
 ## Live example
-Just check this [live example](http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx) of icons.
+Just check this [live example](http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx) of the icons.
 
 ## How to use
 
@@ -22,9 +22,9 @@ glyphicon_replacement/
     +-- bootstrap_stroke.woff
 ```
 
-Include link to css file with replacement in <head> section of html page:
+Include link to css file with replacement in HEAD section of html page  after bootstrap.css linking:
 ```
-<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap_stroke_replace_ref" rel="stylesheet" type="text/css">
 ```
 
 ### Solo Bootstrap Stroke icon set
@@ -41,11 +41,11 @@ bss/
     +-- bootstrap_stroke.woff
 ```
 
-Include link to css file with replacement in <head> section of html page:
+Include link to css file in HEAD section of the html page after bootstrap.css linking:
 ```
-<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap_stroke.css" rel="stylesheet" type="text/css">
 ```
 And then use icons with bootsstrap and bss name convention, e.g. _bss bss-plus_, _bss bss-share_, _bss bss-qrcode_.
 
 ## Support or Contact
-Having trouble with icons or want to say hi? Contact us at team@highrobotics.com.
+Having trouble with icons or want to say hi? Contact us via team@highrobotics.com.

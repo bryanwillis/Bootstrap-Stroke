@@ -3,7 +3,7 @@ Bootstrap stroke icons (BSS) is free of charge icon set created for famous [Boot
 
  
 ## Live example
-Just check this [live example](http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx) of the icons.
+Just check this <a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx" target="_blank">live example</a> of the icons.
 
 ## How to use
 

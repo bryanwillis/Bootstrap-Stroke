@@ -4,6 +4,7 @@ Bootstrap stroke icons (BSS) is free of charge vector icon set created for famou
  
 ## Live example
 Just check this <a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx" target="_blank">live example</a> of the icons.
+<br/>
 <img src="http://www.highrobotics.com/media/images/bss_github.jpg" alt="Bootstrap stroke icons" />
 
 ## How to use

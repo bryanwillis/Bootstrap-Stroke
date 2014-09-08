@@ -1,9 +1,10 @@
 ## Welcome to Bootstrap Stroke Icons project
-Bootstrap stroke icons (BSS) is free of charge icon set created for famous [Bootstrap project](https://github.com/twbs/bootstrap). Glyphicon set is used by default and Bootstrap version 3.2 contains 200 icons. BSS uses stroke style and contains 205 fully compatible icons.
+Bootstrap stroke icons (BSS) is free of charge vector icon set created for famous [Bootstrap project](https://github.com/twbs/bootstrap). Glyphicon set is used by default and Bootstrap version 3.2 contains 200 icons. BSS uses stroke style and contains 205 fully compatible icons.
 
  
 ## Live example
 Just check this <a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx" target="_blank">live example</a> of the icons.
+<img src="http://www.highrobotics.com/media/images/bss_github.jpg" alt="Bootstrap stroke icons" />
 
 ## How to use
 

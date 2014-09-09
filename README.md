@@ -18,6 +18,7 @@ For example, using of _glyphicon glyphicon-plus_ does not require retyping it to
 glyphicon_replacement/
 +-- css/
 ¦   +-- bootstrap_stroke_replace_ref.css
+¦   +-- bootstrap.min.css
 +-- fonts/
     +-- bootstrap_stroke.eot
     +-- bootstrap_stroke.svg
@@ -25,10 +26,19 @@ glyphicon_replacement/
     +-- bootstrap_stroke.woff
 ```
 
-Include link to css file with replacement in HEAD section of html page  after bootstrap.css linking:
+There are two solutions:
+* Replace file `bootstrap.min.css with` with corrected one from `/glyphicon_replacement/css/bootstrap.min.css` and add link to it:
 ```
-<link href="../css/bootstrap_stroke_replace_ref" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
 ```
+
+or
+
+* Copy `bootstrap_stroke_replace_ref.css` from `/glyphicon_replacement/css/` and include link after `bootstrap.min.css`:
+```
+<link href="../css/bootstrap_stroke_replace_ref.css" rel="stylesheet" type="text/css">
+```
+Solution with `bootstrap_stroke_replace_ref.css` has one problem with IE browser, font `glyphicon_halfings.eot` is downloaded in addition to `bootstrap-stroke.eot`.
 
 ### Solo Bootstrap Stroke icon set
 In case of new icons using or additional using to another icons Bootstrap Stroke name convention should be used, e.g. _bss bss-plus_.

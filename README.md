@@ -32,7 +32,7 @@ For experienced users we provide ```.less``` files for private customization. Af
 * Copy ```icons.less``` file from our source to Bootstrap less folder.
 
 * Inside Bootstrap project edit ```bootstrap.less``` file:   
-  remove or comment line ```@import  "glyphicons.less";```   
+  remove or comment line ~~~```@import  "glyphicons.less";```~~~   
   include line ```@import "icons.less";```
 
 * Edit ```variables.less``` file and change Iconograpfy variables to

@@ -23,7 +23,7 @@ This is it!
 
 * ```bss-bootstrap.3.2.0.min.css``` is a based on ```bootstrap.min.css``` and differs only in font reference.
 
-* CDN provided by [jsdelivr](http://www.jsdelivr.com), that is a file hub with fast access from any world point.
+* CDN is provided by [jsdelivr](http://www.jsdelivr.com) - a file hub with fast access from any world point.
 
 ### Advanced solution
 

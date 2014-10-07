@@ -1,0 +1,233 @@
+//
+// Icons for Bootstrap
+//
+// Since icons are fonts, they can be placed anywhere text is placed and are
+// thus automatically sized to match the surrounding child. To use, create an
+// inline element with the appropriate classes, like so:
+//
+// <a href="#"><span class="glyphicon glyphicon-star"></span> Star</a>
+
+// Import the fonts
+@font-face {
+  font-family: '@{icon-font-family}';
+  src: url('@{icon-font-path}@{icon-font-name}.eot');
+  src: url('@{icon-font-path}@{icon-font-name}.eot?#iefix') format('embedded-opentype'),
+       url('@{icon-font-path}@{icon-font-name}.woff') format('woff'),
+       url('@{icon-font-path}@{icon-font-name}.ttf') format('truetype'),
+       url('@{icon-font-path}@{icon-font-name}.svg#@{icon-font-svg-id}') format('svg');
+}
+
+// Catchall baseclass
+.@{icon-font-prefix} {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: '@{icon-font-family}';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Individual icons
+.@{icon-font-prefix}-asterisk               { &:before { content: "\2a"; } }
+.@{icon-font-prefix}-plus                   { &:before { content: "\2b"; } }
+.@{icon-font-prefix}-euro                   { &:before { content: "\20ac"; } }
+.@{icon-font-prefix}-minus                  { &:before { content: "\2212"; } }
+.@{icon-font-prefix}-cloud                  { &:before { content: "\2601"; } }
+.@{icon-font-prefix}-envelope               { &:before { content: "\2709"; } }
+.@{icon-font-prefix}-pencil                 { &:before { content: "\270f"; } }
+.@{icon-font-prefix}-glass                  { &:before { content: "\e001"; } }
+.@{icon-font-prefix}-music                  { &:before { content: "\e002"; } }
+.@{icon-font-prefix}-search                 { &:before { content: "\e003"; } }
+.@{icon-font-prefix}-heart                  { &:before { content: "\e005"; } }
+.@{icon-font-prefix}-star                   { &:before { content: "\e006"; } }
+.@{icon-font-prefix}-star-empty             { &:before { content: "\e007"; } }
+.@{icon-font-prefix}-user                   { &:before { content: "\e008"; } }
+.@{icon-font-prefix}-film                   { &:before { content: "\e009"; } }
+.@{icon-font-prefix}-th-large               { &:before { content: "\e010"; } }
+.@{icon-font-prefix}-th                     { &:before { content: "\e011"; } }
+.@{icon-font-prefix}-th-list                { &:before { content: "\e012"; } }
+.@{icon-font-prefix}-ok                     { &:before { content: "\e013"; } }
+.@{icon-font-prefix}-remove                 { &:before { content: "\e014"; } }
+.@{icon-font-prefix}-zoom-in                { &:before { content: "\e015"; } }
+.@{icon-font-prefix}-zoom-out               { &:before { content: "\e016"; } }
+.@{icon-font-prefix}-off                    { &:before { content: "\e017"; } }
+.@{icon-font-prefix}-signal                 { &:before { content: "\e018"; } }
+.@{icon-font-prefix}-cog                    { &:before { content: "\e019"; } }
+.@{icon-font-prefix}-trash                  { &:before { content: "\e020"; } }
+.@{icon-font-prefix}-home                   { &:before { content: "\e021"; } }
+.@{icon-font-prefix}-file                   { &:before { content: "\e022"; } }
+.@{icon-font-prefix}-time                   { &:before { content: "\e023"; } }
+.@{icon-font-prefix}-road                   { &:before { content: "\e024"; } }
+.@{icon-font-prefix}-download-alt           { &:before { content: "\e025"; } }
+.@{icon-font-prefix}-download               { &:before { content: "\e026"; } }
+.@{icon-font-prefix}-upload                 { &:before { content: "\e027"; } }
+.@{icon-font-prefix}-inbox                  { &:before { content: "\e028"; } }
+.@{icon-font-prefix}-play-circle            { &:before { content: "\e029"; } }
+.@{icon-font-prefix}-repeat                 { &:before { content: "\e030"; } }
+.@{icon-font-prefix}-refresh                { &:before { content: "\e031"; } }
+.@{icon-font-prefix}-list-alt               { &:before { content: "\e032"; } }
+.@{icon-font-prefix}-lock                   { &:before { content: "\e033"; } }
+.@{icon-font-prefix}-flag                   { &:before { content: "\e034"; } }
+.@{icon-font-prefix}-headphones             { &:before { content: "\e035"; } }
+.@{icon-font-prefix}-volume-off             { &:before { content: "\e036"; } }
+.@{icon-font-prefix}-volume-down            { &:before { content: "\e037"; } }
+.@{icon-font-prefix}-volume-up              { &:before { content: "\e038"; } }
+.@{icon-font-prefix}-qrcode                 { &:before { content: "\e039"; } }
+.@{icon-font-prefix}-barcode                { &:before { content: "\e040"; } }
+.@{icon-font-prefix}-tag                    { &:before { content: "\e041"; } }
+.@{icon-font-prefix}-tags                   { &:before { content: "\e042"; } }
+.@{icon-font-prefix}-book                   { &:before { content: "\e043"; } }
+.@{icon-font-prefix}-bookmark               { &:before { content: "\e044"; } }
+.@{icon-font-prefix}-print                  { &:before { content: "\e045"; } }
+.@{icon-font-prefix}-camera                 { &:before { content: "\e046"; } }
+.@{icon-font-prefix}-font                   { &:before { content: "\e047"; } }
+.@{icon-font-prefix}-bold                   { &:before { content: "\e048"; } }
+.@{icon-font-prefix}-italic                 { &:before { content: "\e049"; } }
+.@{icon-font-prefix}-text-height            { &:before { content: "\e050"; } }
+.@{icon-font-prefix}-text-width             { &:before { content: "\e051"; } }
+.@{icon-font-prefix}-align-left             { &:before { content: "\e052"; } }
+.@{icon-font-prefix}-align-center           { &:before { content: "\e053"; } }
+.@{icon-font-prefix}-align-right            { &:before { content: "\e054"; } }
+.@{icon-font-prefix}-align-justify          { &:before { content: "\e055"; } }
+.@{icon-font-prefix}-list                   { &:before { content: "\e056"; } }
+.@{icon-font-prefix}-indent-left            { &:before { content: "\e057"; } }
+.@{icon-font-prefix}-indent-right           { &:before { content: "\e058"; } }
+.@{icon-font-prefix}-facetime-video         { &:before { content: "\e059"; } }
+.@{icon-font-prefix}-picture                { &:before { content: "\e060"; } }
+.@{icon-font-prefix}-map-marker             { &:before { content: "\e062"; } }
+.@{icon-font-prefix}-adjust                 { &:before { content: "\e063"; } }
+.@{icon-font-prefix}-tint                   { &:before { content: "\e064"; } }
+.@{icon-font-prefix}-edit                   { &:before { content: "\e065"; } }
+.@{icon-font-prefix}-share                  { &:before { content: "\e066"; } }
+.@{icon-font-prefix}-check                  { &:before { content: "\e067"; } }
+.@{icon-font-prefix}-move                   { &:before { content: "\e068"; } }
+.@{icon-font-prefix}-step-backward          { &:before { content: "\e069"; } }
+.@{icon-font-prefix}-fast-backward          { &:before { content: "\e070"; } }
+.@{icon-font-prefix}-backward               { &:before { content: "\e071"; } }
+.@{icon-font-prefix}-play                   { &:before { content: "\e072"; } }
+.@{icon-font-prefix}-pause                  { &:before { content: "\e073"; } }
+.@{icon-font-prefix}-stop                   { &:before { content: "\e074"; } }
+.@{icon-font-prefix}-forward                { &:before { content: "\e075"; } }
+.@{icon-font-prefix}-fast-forward           { &:before { content: "\e076"; } }
+.@{icon-font-prefix}-step-forward           { &:before { content: "\e077"; } }
+.@{icon-font-prefix}-eject                  { &:before { content: "\e078"; } }
+.@{icon-font-prefix}-chevron-left           { &:before { content: "\e079"; } }
+.@{icon-font-prefix}-chevron-right          { &:before { content: "\e080"; } }
+.@{icon-font-prefix}-plus-sign              { &:before { content: "\e081"; } }
+.@{icon-font-prefix}-minus-sign             { &:before { content: "\e082"; } }
+.@{icon-font-prefix}-remove-sign            { &:before { content: "\e083"; } }
+.@{icon-font-prefix}-ok-sign                { &:before { content: "\e084"; } }
+.@{icon-font-prefix}-question-sign          { &:before { content: "\e085"; } }
+.@{icon-font-prefix}-info-sign              { &:before { content: "\e086"; } }
+.@{icon-font-prefix}-screenshot             { &:before { content: "\e087"; } }
+.@{icon-font-prefix}-remove-circle          { &:before { content: "\e088"; } }
+.@{icon-font-prefix}-ok-circle              { &:before { content: "\e089"; } }
+.@{icon-font-prefix}-ban-circle             { &:before { content: "\e090"; } }
+.@{icon-font-prefix}-arrow-left             { &:before { content: "\e091"; } }
+.@{icon-font-prefix}-arrow-right            { &:before { content: "\e092"; } }
+.@{icon-font-prefix}-arrow-up               { &:before { content: "\e093"; } }
+.@{icon-font-prefix}-arrow-down             { &:before { content: "\e094"; } }
+.@{icon-font-prefix}-share-alt              { &:before { content: "\e095"; } }
+.@{icon-font-prefix}-resize-full            { &:before { content: "\e096"; } }
+.@{icon-font-prefix}-resize-small           { &:before { content: "\e097"; } }
+.@{icon-font-prefix}-exclamation-sign       { &:before { content: "\e101"; } }
+.@{icon-font-prefix}-gift                   { &:before { content: "\e102"; } }
+.@{icon-font-prefix}-leaf                   { &:before { content: "\e103"; } }
+.@{icon-font-prefix}-fire                   { &:before { content: "\e104"; } }
+.@{icon-font-prefix}-eye-open               { &:before { content: "\e105"; } }
+.@{icon-font-prefix}-eye-close              { &:before { content: "\e106"; } }
+.@{icon-font-prefix}-warning-sign           { &:before { content: "\e107"; } }
+.@{icon-font-prefix}-plane                  { &:before { content: "\e108"; } }
+.@{icon-font-prefix}-calendar               { &:before { content: "\e109"; } }
+.@{icon-font-prefix}-random                 { &:before { content: "\e110"; } }
+.@{icon-font-prefix}-comment                { &:before { content: "\e111"; } }
+.@{icon-font-prefix}-magnet                 { &:before { content: "\e112"; } }
+.@{icon-font-prefix}-chevron-up             { &:before { content: "\e113"; } }
+.@{icon-font-prefix}-chevron-down           { &:before { content: "\e114"; } }
+.@{icon-font-prefix}-retweet                { &:before { content: "\e115"; } }
+.@{icon-font-prefix}-shopping-cart          { &:before { content: "\e116"; } }
+.@{icon-font-prefix}-folder-close           { &:before { content: "\e117"; } }
+.@{icon-font-prefix}-folder-open            { &:before { content: "\e118"; } }
+.@{icon-font-prefix}-resize-vertical        { &:before { content: "\e119"; } }
+.@{icon-font-prefix}-resize-horizontal      { &:before { content: "\e120"; } }
+.@{icon-font-prefix}-hdd                    { &:before { content: "\e121"; } }
+.@{icon-font-prefix}-bullhorn               { &:before { content: "\e122"; } }
+.@{icon-font-prefix}-bell                   { &:before { content: "\e123"; } }
+.@{icon-font-prefix}-certificate            { &:before { content: "\e124"; } }
+.@{icon-font-prefix}-thumbs-up              { &:before { content: "\e125"; } }
+.@{icon-font-prefix}-thumbs-down            { &:before { content: "\e126"; } }
+.@{icon-font-prefix}-hand-right             { &:before { content: "\e127"; } }
+.@{icon-font-prefix}-hand-left              { &:before { content: "\e128"; } }
+.@{icon-font-prefix}-hand-up                { &:before { content: "\e129"; } }
+.@{icon-font-prefix}-hand-down              { &:before { content: "\e130"; } }
+.@{icon-font-prefix}-circle-arrow-right     { &:before { content: "\e131"; } }
+.@{icon-font-prefix}-circle-arrow-left      { &:before { content: "\e132"; } }
+.@{icon-font-prefix}-circle-arrow-up        { &:before { content: "\e133"; } }
+.@{icon-font-prefix}-circle-arrow-down      { &:before { content: "\e134"; } }
+.@{icon-font-prefix}-globe                  { &:before { content: "\e135"; } }
+.@{icon-font-prefix}-wrench                 { &:before { content: "\e136"; } }
+.@{icon-font-prefix}-tasks                  { &:before { content: "\e137"; } }
+.@{icon-font-prefix}-filter                 { &:before { content: "\e138"; } }
+.@{icon-font-prefix}-briefcase              { &:before { content: "\e139"; } }
+.@{icon-font-prefix}-fullscreen             { &:before { content: "\e140"; } }
+.@{icon-font-prefix}-dashboard              { &:before { content: "\e141"; } }
+.@{icon-font-prefix}-paperclip              { &:before { content: "\e142"; } }
+.@{icon-font-prefix}-heart-empty            { &:before { content: "\e143"; } }
+.@{icon-font-prefix}-link                   { &:before { content: "\e144"; } }
+.@{icon-font-prefix}-phone                  { &:before { content: "\e145"; } }
+.@{icon-font-prefix}-pushpin                { &:before { content: "\e146"; } }
+.@{icon-font-prefix}-usd                    { &:before { content: "\e148"; } }
+.@{icon-font-prefix}-gbp                    { &:before { content: "\e149"; } }
+.@{icon-font-prefix}-sort                   { &:before { content: "\e150"; } }
+.@{icon-font-prefix}-sort-by-alphabet       { &:before { content: "\e151"; } }
+.@{icon-font-prefix}-sort-by-alphabet-alt   { &:before { content: "\e152"; } }
+.@{icon-font-prefix}-sort-by-order          { &:before { content: "\e153"; } }
+.@{icon-font-prefix}-sort-by-order-alt      { &:before { content: "\e154"; } }
+.@{icon-font-prefix}-sort-by-attributes     { &:before { content: "\e155"; } }
+.@{icon-font-prefix}-sort-by-attributes-alt { &:before { content: "\e156"; } }
+.@{icon-font-prefix}-unchecked              { &:before { content: "\e157"; } }
+.@{icon-font-prefix}-expand                 { &:before { content: "\e158"; } }
+.@{icon-font-prefix}-collapse-down          { &:before { content: "\e159"; } }
+.@{icon-font-prefix}-collapse-up            { &:before { content: "\e160"; } }
+.@{icon-font-prefix}-log-in                 { &:before { content: "\e161"; } }
+.@{icon-font-prefix}-flash                  { &:before { content: "\e162"; } }
+.@{icon-font-prefix}-log-out                { &:before { content: "\e163"; } }
+.@{icon-font-prefix}-new-window             { &:before { content: "\e164"; } }
+.@{icon-font-prefix}-record                 { &:before { content: "\e165"; } }
+.@{icon-font-prefix}-save                   { &:before { content: "\e166"; } }
+.@{icon-font-prefix}-open                   { &:before { content: "\e167"; } }
+.@{icon-font-prefix}-saved                  { &:before { content: "\e168"; } }
+.@{icon-font-prefix}-import                 { &:before { content: "\e169"; } }
+.@{icon-font-prefix}-export                 { &:before { content: "\e170"; } }
+.@{icon-font-prefix}-send                   { &:before { content: "\e171"; } }
+.@{icon-font-prefix}-floppy-disk            { &:before { content: "\e172"; } }
+.@{icon-font-prefix}-floppy-saved           { &:before { content: "\e173"; } }
+.@{icon-font-prefix}-floppy-remove          { &:before { content: "\e174"; } }
+.@{icon-font-prefix}-floppy-save            { &:before { content: "\e175"; } }
+.@{icon-font-prefix}-floppy-open            { &:before { content: "\e176"; } }
+.@{icon-font-prefix}-credit-card            { &:before { content: "\e177"; } }
+.@{icon-font-prefix}-transfer               { &:before { content: "\e178"; } }
+.@{icon-font-prefix}-cutlery                { &:before { content: "\e179"; } }
+.@{icon-font-prefix}-header                 { &:before { content: "\e180"; } }
+.@{icon-font-prefix}-compressed             { &:before { content: "\e181"; } }
+.@{icon-font-prefix}-earphone               { &:before { content: "\e182"; } }
+.@{icon-font-prefix}-phone-alt              { &:before { content: "\e183"; } }
+.@{icon-font-prefix}-tower                  { &:before { content: "\e184"; } }
+.@{icon-font-prefix}-stats                  { &:before { content: "\e185"; } }
+.@{icon-font-prefix}-sd-video               { &:before { content: "\e186"; } }
+.@{icon-font-prefix}-hd-video               { &:before { content: "\e187"; } }
+.@{icon-font-prefix}-subtitles              { &:before { content: "\e188"; } }
+.@{icon-font-prefix}-sound-stereo           { &:before { content: "\e189"; } }
+.@{icon-font-prefix}-sound-dolby            { &:before { content: "\e190"; } }
+.@{icon-font-prefix}-sound-5-1              { &:before { content: "\e191"; } }
+.@{icon-font-prefix}-sound-6-1              { &:before { content: "\e192"; } }
+.@{icon-font-prefix}-sound-7-1              { &:before { content: "\e193"; } }
+.@{icon-font-prefix}-copyright-mark         { &:before { content: "\e194"; } }
+.@{icon-font-prefix}-registration-mark      { &:before { content: "\e195"; } }
+.@{icon-font-prefix}-cloud-download         { &:before { content: "\e197"; } }
+.@{icon-font-prefix}-cloud-upload           { &:before { content: "\e198"; } }
+.@{icon-font-prefix}-tree-conifer           { &:before { content: "\e199"; } }
+.@{icon-font-prefix}-tree-deciduous         { &:before { content: "\e200"; } }

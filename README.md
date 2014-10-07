@@ -19,7 +19,7 @@ After Bootsrap installation replace file refererence from `bootstrap.min.css` to
 <link href="//cdn.jsdelivr.net/bootstrap-stroke/1.0.0/css/bss-bootstrap.3.2.0.min.css" rel="stylesheet" type="text/css">
 ```
 
-This is it.
+This is it!
 
 * ```bss-bootstrap.3.2.0.min.css``` is a based on ```bootstrap.min.css``` and differs only in font reference.
 
@@ -36,29 +36,29 @@ For experienced users we provide ```.less``` files for private customization. Af
   include line ```@import "icons.less";```
 
 * Edit ```variables.less``` file and change Iconograpfy variables to
-```
-//** Load fonts from this directory.
-@icon-font-path:          "../fonts/";
-
-//** File name for all font files.
-@icon-font-name:          "bootstrap-stroke"; // default: "glyphicons-halflings-regular";
-
-//** Element ID within SVG icon file.
-@icon-font-svg-id:        "bootstrap-stroke"; // default: "glyphicons_halflingsregular";
-
-//** Font family name
-@icon-font-family:        'Bootstrap stroke'; // default: "Glyphicons Halflings";
-
-//** Prefix is used in icons class declaration 
-// <span class="glyphicon glyphicon-star">
-// <span class="bss bss-star">
-@icon-font-prefix:        bss; // default: glyphicon;
-```
+  ```
+  //** Load fonts from this directory.
+  @icon-font-path:          "../fonts/";
+  
+  //** File name for all font files.
+  @icon-font-name:          "bootstrap-stroke"; // default: "glyphicons-halflings-regular";
+  
+  //** Element ID within SVG icon file.
+  @icon-font-svg-id:        "bootstrap-stroke"; // default: "glyphicons_halflingsregular";
+  
+  //** Font family name
+  @icon-font-family:        'Bootstrap stroke'; // default: "Glyphicons Halflings";
+  
+  //** Prefix is used in icons class declaration 
+  // <span class="glyphicon glyphicon-star">
+  // <span class="bss bss-star">
+  @icon-font-prefix:        bss; // default: glyphicon;
+  ```
 
 Customize on your needs the font variables and then compile ```bootsrap.less``` to css file.
 
 ## How to use
-Applying css file from jsdelivr CDN you make code valid as in Bootsrap project, for example ```<span class="glyphicon glyphicon-star" />```.
+Applying css file from jsdelivr CDN you make code valid as in Twitter Bootsrap project. So there is no need in any other changes, for example, using glyphicon-star is same: ```<span class="glyphicon glyphicon-star" />```.
 
 In case of custom prefix like ```@icon-font-prefix: bss``` use ```<span class="bss bss-star" />```. 
 

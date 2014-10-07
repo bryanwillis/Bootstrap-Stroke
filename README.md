@@ -13,7 +13,7 @@ Just check this <a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeic
 ### Simple and fast solution with CDN 
 
 We already prepared for you ready to use files.
-After Bootsrap installation replace file refererence from `bootstrap.min.css` to corrected one at [jsdelivr](http://www.jsdelivr.com/#!bootstrap-stroke) in the ```html <HEAD>``` section of your page. To use Bootsrap 3.2.0 with Bootsrap-Stroke font just add reference
+After Bootsrap installation replace file refererence from `bootstrap.min.css` to corrected one at [jsdelivr](http://www.jsdelivr.com/#!bootstrap-stroke) in the ```<HEAD>``` section of your page. To use Bootsrap 3.2.0 with Bootsrap-Stroke font just add reference
 
 ```
 <link href="//cdn.jsdelivr.net/bootstrap-stroke/1.0.0/css/bss-bootstrap.3.2.0.min.css" rel="stylesheet" type="text/css">
@@ -36,7 +36,7 @@ For experienced users we provide ```.less``` files for private customization. Af
   include line ```@import "icons.less";```
 
 * Edit ```variables.less``` file and change Iconograpfy variables to
-  ```html
+  ```less
   //** Load fonts from this directory.
   @icon-font-path:          "../fonts/";
   

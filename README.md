@@ -1,5 +1,5 @@
 ## Welcome to Bootstrap Stroke Icons project
-Bootstrap stroke icons (BSS) is free of charge vector icon set created for famous [Bootstrap project](https://github.com/twbs/bootstrap). Glyphicon set is used by default and Bootstrap version 3.2 contains 200 icons. BSS uses stroke style and contains 205 fully compatible icons.
+Bootstrap stroke icons (BSS) is free of charge vector icon set created for famous [Twitter Bootstrap project](https://github.com/twbs/bootstrap). Glyphicon set is used by default and Bootstrap version 3.2 contains 200 icons. BSS uses stroke style and contains 205 fully compatible icons.
 
  
 ## Live example
@@ -8,60 +8,63 @@ Just check this <a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeic
 <a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx" target="_blank">
 <img src="http://www.highrobotics.com/media/images/bss_github.jpg" alt="Bootstrap stroke icons" /></a>
 
+## How to enable
+
+### Simple and fast solution with CDN 
+
+We already prepared for you ready to use files.
+* After Bootsrap installation replace file refererence from `bootstrap.min.css` to corrected one at [jsdelivr](`https://github.com/jsdelivr/jsdelivr/tree/master/files/bootstrap-stroke`) in the ```HEAD``` section of your page. To use Bootsrap 3.2.0 with Bootsrap-Stroke font just add reference to
+
+```
+<link href="//cdn.jsdelivr.net/bootsrap-stroke/1.0.0/css/bss-bootstrap.3.2.0.min.css" rel="stylesheet" type="text/css">
+```
+
+This is it.
+
+```bss-bootstrap.3.2.0.min.css``` is a based on ```bootstrap.min.css``` and differs only in font reference.
+
+CDN provided by jsdelivr is a file hub with fast access from any world point.
+
+### Advanced solution
+
+For experienced users we provide ```.less``` files for private customization. After downloading Bootstrap source files make changes to the next files in less folder:
+
+* Copy ```icons.less``` file from our source to Bootstrap less folder.
+
+* Inside Bootstrap project edit ```bootstrap.less``` file and remove or comment line ```@import  "glyphicons.less";```, then include line ```@import "icons.less";```
+
+* Edit ```variables.less``` file and change Iconograpfy variables to
+```
+//** Load fonts from this directory.
+@icon-font-path:          "../fonts/";
+
+//** File name for all font files.
+@icon-font-name:          "bootstrap-stroke"; // default: "glyphicons-halflings-regular";
+
+//** Element ID within SVG icon file.
+@icon-font-svg-id:        "bootstrap-stroke"; // default: "glyphicons_halflingsregular";
+
+//** Font family name
+@icon-font-family:        'Bootstrap stroke'; // default: "Glyphicons Halflings";
+
+//** Prefix is used in icons class declaration 
+// <span class="glyphicon glyphicon-star">
+// <span class="bss bss-star">
+@icon-font-prefix:        bss; // default: glyphicon;
+```
+
+Customize on your needs the font variables and then compile ```bootsrap.less``` to css file.
+
 ## How to use
+Applying css file from jsdelivr CDN there will not be any changes in using icons. Same code is valid as in Bootsrap project, for example ```<span class="glyphicon glyphicon-star" />```.
 
-### Glyphicon replacement
-If your project already contains glyphicons then for compatibility name convention can be saved and glyphicons replaced. 
-For example, using of _glyphicon glyphicon-plus_ does not require retyping it to _bss bss-plus_.
+In case of custom prefix like ```@icon-font-prefix: bss;``` use ```<span class="bss bss-star" />```. 
 
-```
-glyphicon_replacement/
-+-- css/
-¦   +-- bootstrap_stroke_replace_ref.css
-¦   +-- bootstrap.min.css
-+-- fonts/
-    +-- bootstrap_stroke.eot
-    +-- bootstrap_stroke.svg
-    +-- bootstrap_stroke.ttf
-    +-- bootstrap_stroke.woff
-```
-
-There are two solutions:
-* Replace file `bootstrap.min.css with` with corrected one from `/glyphicon_replacement/css/bootstrap.min.css` and add link to it:
-```
-<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-```
-
-or
-
-* Copy `bootstrap_stroke_replace_ref.css` from `/glyphicon_replacement/css/` and include link after `bootstrap.min.css`:
-```
-<link href="../css/bootstrap_stroke_replace_ref.css" rel="stylesheet" type="text/css">
-```
-Solution with `bootstrap_stroke_replace_ref.css` has one problem with IE browser, font `glyphicon_halfings.eot` is downloaded in addition to `bootstrap-stroke.eot`.
-
-### Solo Bootstrap Stroke icon set
-In case of new icons using or additional using to another icons Bootstrap Stroke name convention should be used, e.g. _bss bss-plus_.
-
-```
-bss/
-+-- css/
-¦   +-- bootstrap_stroke.css
-+-- fonts/
-    +-- bootstrap_stroke.eot
-    +-- bootstrap_stroke.svg
-    +-- bootstrap_stroke.ttf
-    +-- bootstrap_stroke.woff
-```
-
-Include link to css file in HEAD section of the html page after bootstrap.css linking:
-```
-<link href="../css/bootstrap_stroke.css" rel="stylesheet" type="text/css">
-```
-And then use icons with bootsstrap and bss name convention, e.g. _bss bss-plus_, _bss bss-share_, _bss bss-qrcode_.
+Read more about icon applying at [Bootrap Help](http://getbootstrap.com/components/).
 
 ## License
-[MIT](http://opensource.org/licenses/MIT)
+Code: [MIT](http://opensource.org/licenses/MIT),
+fonts: [Creative Common 2.0](http://creativecommons.org/licenses/by/2.0/)
 
 ## Support or Contact
 Having trouble with icons or want to say hi? Contact us via team@highrobotics.com.

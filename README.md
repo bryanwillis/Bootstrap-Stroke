@@ -3,10 +3,9 @@ Bootstrap stroke icons (BSS) is free of charge vector icon set created for famou
 
  
 ## Live example
-Just check this <a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx" target="_blank">live example</a> of the icons.
+Just check this <a href="https://raw.githubusercontent.com/HighRobotics/Bootstrap-Stroke/master/preview.html" target="_blank">live example</a> of the icons.
 <br/>
-<a href="http://highrobotics.com/we-did-it/web/bootstrapstrokeicon.aspx" target="_blank">
-<img src="http://www.highrobotics.com/media/images/bss_github.jpg" alt="Bootstrap stroke icons" /></a>
+<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/t31.0-8/12314675_983440951726447_2033016135636906280_o.png" alt="Bootstrap stroke icons" />
 
 ## How to enable
 
@@ -16,7 +15,7 @@ We already prepared for you ready to use files.
 * After Bootsrap installation replace file refererence from `bootstrap.min.css` to corrected one at [jsdelivr](`https://github.com/jsdelivr/jsdelivr/tree/master/files/bootstrap-stroke`) in the ```HEAD``` section of your page. To use Bootsrap 3.2.0 with Bootsrap-Stroke font just add reference to
 
 ```
-<link href="//cdn.jsdelivr.net/bootsrap-stroke/1.0.0/css/bss-bootstrap.3.2.0.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/bootstrap-stroke/1.0.1/css/bss-bootstrap.3.2.0.min.css" rel="stylesheet" type="text/css">
 ```
 
 This is it.
@@ -66,6 +65,4 @@ Read more about icon applying at [Bootrap Help](http://getbootstrap.com/componen
 Code: [MIT](http://opensource.org/licenses/MIT),
 fonts: [Creative Common 2.0](http://creativecommons.org/licenses/by/2.0/)
 
-## Support or Contact
-Having trouble with icons or want to say hi? Contact us via team@highrobotics.com.
 

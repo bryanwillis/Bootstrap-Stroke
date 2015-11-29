@@ -3,7 +3,7 @@ Bootstrap stroke icons (BSS) is free of charge vector icon set created for famou
 
  
 ## Live example
-Just check save and open <a href="https://raw.githubusercontent.com/HighRobotics/Bootstrap-Stroke/master/preview.html" target="_blank">preview example</a> of the icons.
+Just save and open <a href="https://raw.githubusercontent.com/HighRobotics/Bootstrap-Stroke/master/preview.html" target="_blank">preview example</a> of the icons.
 <br/>
 <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/t31.0-8/12314675_983440951726447_2033016135636906280_o.png" alt="Bootstrap stroke icons" />
 

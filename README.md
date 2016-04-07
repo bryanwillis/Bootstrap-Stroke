@@ -59,7 +59,7 @@ Applying css file from jsdelivr CDN there will not be any changes in using icons
 
 In case of custom prefix like ```@icon-font-prefix: bss;``` use ```<span class="bss bss-star" />```. 
 
-Read more about icon applying at [Bootrap Help](http://getbootstrap.com/components/).
+Read more about icon applying at [Bootsrap Help](http://getbootstrap.com/components/).
 
 ## License
 Code: [MIT](http://opensource.org/licenses/MIT),
